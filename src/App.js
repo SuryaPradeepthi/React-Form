@@ -83,7 +83,7 @@ if(newStep>0 && newStep<=6)
   
         <Stepper steps ={stepsArray} currentStep={currentStep}/>
 
-{/*   
+  
         <div className="borrow">
         <Multistep
         
@@ -102,8 +102,8 @@ if(newStep>0 && newStep<=6)
         />
 
 
-        </div> */}
-        <Multistep/>
+        </div>
+        {/* <Multistep/> */}
         <div className="buttons-container">
           
           <button className="btnn1" onClick={()=>this.handleClick()}>Back </button>
